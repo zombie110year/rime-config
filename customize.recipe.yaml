@@ -1,0 +1,17 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: customize
+  args:
+    - schema=double_pinyin_flypy
+  description: >-
+    Customize input schema to show emoji suggestion with OpenCC
+
+install_files: >-
+  # emoji_suggestion.yaml
+  # opencc/*.*
+
+patch_files:
+  ${schema:-double_pinyin_flypy}.custom.yaml:
+    - patch/+:
+        __include: emoji_suggestion:/patch

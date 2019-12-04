@@ -1,0 +1,13 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Mon Dec  2 16:53:19 2019"
+  rime_version: 1.5.3
+patch:
+  "style/color_scheme": ink
+  "style/font_face": "Sarasa UI SC"
+  # 字体
+  "style/font_point": 14
+  # 候选字水平排列
+  "style/horizontal": true
